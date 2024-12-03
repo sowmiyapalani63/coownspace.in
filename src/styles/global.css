@@ -1,0 +1,17 @@
+
+:root {
+    --primary-color: #ff692e;
+    --secondary-color: #0056b3;
+    --font-family: 'Outfit', sans-serif;
+    --base-padding: 1rem;
+    --base-margin: 1rem;
+    --transition-speed: 0.3s ease;
+  }
+  
+
+  body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+  }
+  
