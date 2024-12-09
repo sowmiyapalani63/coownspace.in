@@ -1,0 +1,67 @@
+
+
+{
+    "PropertiesDetails": [
+      {
+        "propertyHead": "Property Details",
+        "propertyTitle": "Family Home in Suburbia",
+        "propertyText": "Welcome to your urban oasis! This cozy condo located in the heart of downtown offers the perfect blend of comfort, convenience, and style."
+      },
+      {
+        "propertyHead": "About Us",
+        "propertyTitle": "Get Your Real Estate Experience With NestBes",
+        "propertyText": "At NestBes, we are committed to simplifying your real estate journey and helping you find the perfect home."
+      }
+    ],
+    "AccordionDetails": [
+      {
+        "title": "Our Mission",
+        "content": "To empower individuals and families to make informed real estate decisions and achieve their homeownership goals.",
+        "icon": "../../Assets/svg/DoubleArrowIcon.svg",
+        "img": "../../Assets/svg/DoubleDownArrow.svg"
+      },
+      {
+        "title": "Transparency and Integrity",
+        "content": "We believe in transparency and honesty in all our dealings. You can trust NestBes to provide accurate information.",
+        "icon": "../../Assets/svg/DoubleArrowIcon.svg",
+        "img": "../../Assets/svg/DoubleDownArrow.svg"
+      },
+      {
+        "title": "Customer-Centric Approach",
+        "content": "At NestBes, customer satisfaction is our top priority. We prioritize your needs and preferences, offering personalized support.",
+        "icon": "../../Assets/svg/DoubleArrowIcon.svg",
+        "img": "../../Assets/svg/DoubleDownArrow.svg"
+      },
+      {
+        "title": "Innovative Technology",
+        "content": "We harness the latest technological advancements to streamline the real estate experience.",
+        "icon": "../../Assets/svg/DoubleArrowIcon.svg",
+        "img": "../../Assets/svg/DoubleDownArrow.svg"
+      }
+    ],
+    "ProductCradDetails":[
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Expertise",
+        "text": "Our team of seasoned professionals brings years of experience.",
+        "icon": "StarCardIcon.svg"
+        },
+        {
+          "id": 2,
+          "number": "02",
+          "title": "Personalized Service",
+          "text": "We believe in treating every client as unique individuals with specific.",
+          "icon": "personalizeService.svg"
+        },
+        {
+          "id": 3,
+          "number": "03",
+          "title": "Comprehensive Support",
+          "text": "You can count on us whether you're buying, selling, or investing",
+          "icon": "ContactSupportIcon.svg"
+        }
+      
+    ]
+  }
+  
