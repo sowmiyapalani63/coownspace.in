@@ -20,9 +20,9 @@ const Aboutus = ({ data }) => {
 
     return (
         <section className="about-us-section about-us-page">
-            <div className="section-gap pt-24 pb-24">
+            <div className="section-gap pt-24 pb-24 lg:pl-[15px] lg:pr-[15px]">
                 <div className="container mx-auto px-4">
-                    <div className="about-us-wrapper">
+                    <div className="about-us-wrapper ">
                         <div className="about-content-wrapper flex flex-col text-center lg:text-left lg:flex-row lg:gap-[164px] gap-10">
                             {/* Left Content */}
                             <div className="about-content-left max-w-lg">

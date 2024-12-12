@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
     return (
         <>
             <section className="why-choose-us-section bg-primaryOne">
-                <div className="section-gap overflow-hidden py-extraSmall md:py-medium lg:py-large xl:py-extraLarge ">
+                <div className="section-gap lg:pl-[15px] lg:pr-[15px] overflow-hidden py-extraSmall md:py-medium lg:py-large xl:py-extraLarge ">
                     <div className="w-layout-blockcontainer container-default w-container  max-w-[960px] mx-auto px-[15px] sm:px-0 lg:max-w-[1170px] lg:px-0 xl:max-w-[1290px] xl:px-0">
                         <div className="why-choose-us-wrapper">
                             <div className="section-top-wrapper why-choose-us-section border-b justify-between  mb-[60px] flex-col md:flex-row gap-[20px] md:gap-[20px] md:items-start border-[#4f4f4f80] pb-[30px] md:pb-[40px] lg:pb-[60px] flex relative">

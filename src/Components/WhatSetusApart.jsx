@@ -17,7 +17,7 @@ const WhatSetusApart = () => {
   ];
 
   return (
-    <div className="section-gap">
+    <div className="section-gap lg:pl-[15px] lg:pr-[15px]">
       <div className="w-layout-blockcontainer container-default w-container w-layout-blockcontainer container-default w-container  max-w-[960px] mx-auto px-[15px] sm:px-0 lg:max-w-[1170px] lg:px-0 xl:max-w-[1290px] xl:px-0">
         <div className="what-sets-apart-wrapper  flex flex-col gap-8 md:flex-row">
           <div className="sets-apart-content-wrapper lg:w-[600px]  rounded-[32px] bg-lightblueBg px-[15px] py-[25px] sm:p-[32px]">

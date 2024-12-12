@@ -1,17 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
-    --primary-color: #ff692e;
-    --secondary-color: #0056b3;
-    --font-family: 'Outfit', sans-serif;
-    --base-padding: 1rem;
-    --base-margin: 1rem;
-    --transition-speed: 0.3s ease;
-  }
-  
+  --font-family-primary: 'Outfit', sans-serif;
+  --text-color: #4f4f4f;
+  --primary-color-one: #060614;
+  --primary-color-two: #339449;
+  --primary-color-three: #544fcc;
+  --white: #ffffff; 
+  --section-lightblue-bg: #f1f5fa;
+  --section-gap-medium: 100px;
+  --section-gap-extra-large: 140px;
+  --section-gap-large: 120px;
+  --section-gap-small: 80px;
+  --section-gap-extra-small: 60px;
+}
+*{
+  box-sizing: border-box;
 
+}
+@media screen and (min-width: 1440px) {
+  .container-default {
+      max-width: 1290px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-default {
+      max-width: 1170px;
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+@media screen and (min-width: 1013px) {
+  .container-default {
+      max-width: 740px;
+    
+  }
+}
+.container-default {
+  max-width: 960px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.w-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-gap {
+  @apply py-[60px] sm:py-[80px] md:py-[100px] lg:py-[120px] xl:py-[140px];
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+.sets-apart-video-lightbox {
+  background-image: url('../Assets/imges/setsapartimage.jpg');
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   body {
-    font-family: var(--font-family);
+    font-family: var(--font-family-primary);
     margin: 0;
     padding: 0;
+  line-height: 1.6;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .heading-style-h4.sets-apart-list-title {
+    background-image: url('../Assets/svg/CheckMarkIcon.svg');
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-bottom: 8px;
+    padding-left: 38px;
+}
+.heading-style-h4.our-approach-list-title{
+
+    background-image: url('../Assets/svg/CheckIconBordered.svg');
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-bottom: 8px;
+    padding-left: 38px;
+}
+  .heading-h1 {
+    @apply mt-5 text-[38px] leading-[44px] font-bold mb-2;
+  }
+  .heading-h2 {
+    @apply mt-5 text-[32px] leading-[36px] font-bold mb-2;
+  }
+  .heading-h3 {
+    @apply mt-5 text-[24px] leading-[30px] font-bold mb-2;
+  }
+  .heading-h4 {
+    @apply mt-2 text-[18px] leading-[24px] font-bold mb-2;
+  }
+  .heading-h5 {
+    @apply mt-2 text-[14px] leading-[20px] font-bold mb-2;
+  }
+  .heading-h6 {
+    @apply mt-2 text-[12px] leading-[18px] font-bold mb-2;
   }
   
+  /* Paragraph and List Styles */
+  .paragraph {
+    @apply mt-0 mb-2;
+  }
+  .list {
+    @apply mt-0 mb-2 pl-10;
+  }
+  .figcaption {
+    @apply text-center mt-1;
+  }
+  /* .section-gap {
+    padding-top: var(--section-gap--medium);
+    padding-bottom: var(--section-gap--medium);
+} */
+.section-top-wrapper.why-choose-us-section {
+  border-bottom-color: #ffffff80;
+}
+.footer-top-cta-wrapper {
+ 
+  border-radius: 32px;
+  padding: 40px;
+  position: relative;
+}
+
+.footer-top-cta-content {
+  max-width: 430px;
+}
+
+.footer-top-cta-title {
+  color: var(--white);
+}
+
+.footer-top-cta-text {
+  color: var(--white);
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+
+.footer-top-cta-image-wrapper {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+}
+
+.footer-top-cta-image {
+  width: 400px;
+}
+
+.footer-shape-bg-wrapper {
+  pointer-events: none;
+  position: absolute;
+  inset: 0%;
+}
+
+.footer-cta-shape1 {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.footer-cta-shape2 {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+}
+
+.footer-cta-shape3 {
+  position: absolute;
+  bottom: 0;
+  left: 24%;
+}
+
+
+
+/* murali glo */

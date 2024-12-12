@@ -11,6 +11,11 @@
         "propertyHead": "About Us",
         "propertyTitle": "Get Your Real Estate Experience With NestBes",
         "propertyText": "At NestBes, we are committed to simplifying your real estate journey and helping you find the perfect home."
+      },
+      {
+        "propertyHead": "Contact Us",
+        "propertyTitle": "Let's Start Your Real Estate Journey Together",
+        "propertyText": "Contact us today to explore your real estate options, ask questions, or schedule a consultation. Our team of expert agents is here to provide personalized."
       }
     ],
     "AccordionDetails": [
@@ -62,6 +67,26 @@
           "icon": "ContactSupportIcon.svg"
         }
       
+    ],
+    "ContactInfoCardDetails":[
+      {
+        "id":1,
+        "Contacttype":"Phone number",
+        "Contact1":"555-0125",
+        "Contact2":"555-0125"
+      },
+      {
+        "id":2,
+        "Contacttype":"Email Address",
+        "Contact1":"contact@nestbes.com",
+        "Contact2":"info@nestbes.com"
+      },
+      {
+        "id":3,
+        "Contacttype":"Location",
+        "Contact1":"8502 Preston Rd. Inglewood, Maine 98380"
+
+      }
     ]
   }
   

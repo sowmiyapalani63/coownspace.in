@@ -4,8 +4,8 @@ import StarIcon from '../../Assets/svg/StarIcon.svg'
 import propertyData from '../../lib/consts/data.json';
 import '../../styles/global.css'
 
-const Hero = () => {
-   const {propertyHead,propertyTitle,propertyText} = propertyData.PropertiesDetails[1]
+const Hero = ({ index }) => {
+   const {propertyHead,propertyTitle,propertyText} = propertyData.PropertiesDetails[index]
 
   return (
     <section class="page-hero bg-lightblueBg pt-[235px] pb-[100px] ">
